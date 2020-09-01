@@ -9,7 +9,7 @@ function App() {
 	return (
 		<Auth0Provider
 			clientId="Evxik4rJJ48OGbeF3YAjlvTW21UpyxcN"
-			domain="dev-i7afx3za.au.auth0.com"
+			domain="https://dev-i7afx3za.au.auth0.com/"
 			redirectUri="/logged-in"
 		>
 			<Router>
