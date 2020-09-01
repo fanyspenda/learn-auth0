@@ -10,7 +10,7 @@ function App() {
 		<Auth0Provider
 			clientId="Evxik4rJJ48OGbeF3YAjlvTW21UpyxcN"
 			domain="https://dev-i7afx3za.au.auth0.com/"
-			redirectUri="/logged-in"
+			redirectUri="https://learn-auth0.vercel.app/logged-in"
 		>
 			<Router>
 				<div className="App">
