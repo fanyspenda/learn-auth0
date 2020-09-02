@@ -8,10 +8,15 @@ const LoggedIn: React.FunctionComponent = () => {
 	const [userData, setUserData] = useState(user);
 
 	const authChecker = () => {
+		console.log(userData);
 		if (isAuthenticated) {
 			return <h2>you are authenticated</h2>;
 		} else {
-			history.push("/");
+			return (
+				<h2>
+					you are <b>NOT</b> authenticated
+				</h2>
+			);
 		}
 	};
 	return (
