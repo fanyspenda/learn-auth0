@@ -19,3 +19,7 @@ Sebuah service yang membuat otomatis autentikasi.
 
 -   Bungkus komponen dengan `<Auth0Provider>`, isi props `domain`, `clientId`, dan `RedirectUri`.
 -   panggil fungsi `loginWithRedirect()` (dari _hooks_ `useAuth0`) ketika tombol Login diklik.
+
+> **Note:**
+>
+> -   `isAuthenticated` memiliki nilai default `false`.
