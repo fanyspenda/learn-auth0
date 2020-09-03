@@ -11,6 +11,7 @@ function App() {
 			clientId="Evxik4rJJ48OGbeF3YAjlvTW21UpyxcN"
 			domain="dev-i7afx3za.au.auth0.com"
 			redirectUri="https://learn-auth0.vercel.app/logged-in"
+			audience="https://hasura.io/learn"
 		>
 			<Router>
 				<div className="App">
