@@ -15,7 +15,7 @@ const LoggedIn: React.FunctionComponent = () => {
 	return isAuthenticated ? (
 		<>
 			<h1>This page is only showed to Logged In User</h1>
-			<p>your token is {getAccessTokenSilently}</p>
+			<p>your token is {getAccessTokenSilently()}</p>
 			<button onClick={() => logout()}>Log Out</button>
 		</>
 	) : (
